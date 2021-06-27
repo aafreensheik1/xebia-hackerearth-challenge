@@ -5,7 +5,8 @@ export default {
     phone: '+91 8185050344',
     email: 'aafreen9495@gmail.com',
     description: `I'm a Frontend Developer, having almost 4 years of experience working on multiple React projects that includes IoT based React application and React Migration Projects. Responsible for implementing Data visualization with ESRI maps and High charts along with Antd, writing complete page in React which was previously developed in php and Vanilla JS. Developed common components in react which are used across multiple react pages.`,
-    profileUrl: ''
+    profileUrl:
+      'https://raw.githubusercontent.com/aafreensheik1/xebia-hackerearth-challenge/master/src/assets/AafreenSheik.jpg'
   },
   education: [
     {
