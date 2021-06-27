@@ -1,6 +1,6 @@
 import React from 'react';
 import { Navbar, Footer } from './components';
-import { Resume } from './containers';
+import { Resume, Blogs } from './containers';
 import './style.scss';
 
 export default function App() {
@@ -16,7 +16,7 @@ export default function App() {
   return (
     <div>
       <Navbar navItemsLeft={navItemsLeft} navItemsRight={navItemsRight} />
-      <Resume />
+      <Blogs />
       <Footer>
         <span>
           Created by Aafreen Sheik for Xebia - Hackerearth Frontend Hiring
