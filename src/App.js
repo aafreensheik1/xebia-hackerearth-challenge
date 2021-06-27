@@ -1,7 +1,7 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import { Footer } from './components';
-import { Resume, Blogs, Navigation } from './containers';
+import { Resume, Blogs, BlogPage, Navigation } from './containers';
 import './style.scss';
 
 export default function App() {
@@ -9,7 +9,7 @@ export default function App() {
     <div>
       <Navigation />
       <Switch>
-        {/* <Route path="/blogs/:id" component={BlogPage} /> */}
+        <Route path="/blogs/:id" component={BlogPage} />
         <Route path="/blogs" component={Blogs} />
         <Route path="/" component={Resume} />
       </Switch>
