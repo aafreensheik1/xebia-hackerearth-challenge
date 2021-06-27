@@ -1,0 +1,34 @@
+.navbar {
+  background-color: white;
+  position: sticky;
+  top: 0;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-items {
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  li {
+    display: inline-block;
+    padding: 10px;
+    cursor: pointer;
+  }
+  .active {
+    color: blue;
+  }
+}
+
+.nav-item-right {
+  padding: 5px 10px;
+  border: 1px solid black;
+}
+.nav-item-right:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}

@@ -1,0 +1,9 @@
+.skillset {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  li {
+    padding: 5px;
+  }
+}
