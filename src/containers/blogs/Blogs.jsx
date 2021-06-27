@@ -41,7 +41,7 @@ export default function Blogs() {
       />
       <div className="blogs-container">
         {(filteredPosts ?? posts).map(({ title, body, id }) => (
-          <Card onClick={() => handleClick(id)} className="blog-card">
+          <Card key={id} onClick={() => handleClick(id)} className="blog-card">
             <h4>{title}</h4>
             <p>{body}</p>
           </Card>
