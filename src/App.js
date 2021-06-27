@@ -1,13 +1,6 @@
 import React from 'react';
 import { Navbar, Footer } from './components';
-import {
-  ProfileSection,
-  ExperienceSection,
-  EducationSection,
-  SkillsSection,
-  ContactSection
-} from './containers';
-import data from './assets/data';
+import { Resume } from './containers';
 import './style.scss';
 
 export default function App() {
@@ -19,17 +12,11 @@ export default function App() {
     { title: 'CONTACT', url: 'Contact' }
   ];
   const navItemsRight = [{ title: 'BLOGS', url: '/blogs' }];
-  const { profile, experience, education, skills } = data;
+
   return (
     <div>
       <Navbar navItemsLeft={navItemsLeft} navItemsRight={navItemsRight} />
-      <main className="content">
-        <ProfileSection id="AboutMe" profile={profile} />
-        <ExperienceSection id="Experience" experience={experience} />
-        <EducationSection id="Education" education={education} />
-        <SkillsSection id="Skills" skills={skills} />
-        <ContactSection id="Contact" />
-      </main>
+      <Resume />
       <Footer>
         <span>
           Created by Aafreen Sheik for Xebia - Hackerearth Frontend Hiring

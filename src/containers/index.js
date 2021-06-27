@@ -1,13 +1,3 @@
-import ProfileSection from './profile/ProfileSection';
-import ExperienceSection from './experience/ExperienceSection';
-import EducationSection from './education/EducationSection';
-import SkillsSection from './skills/SkillsSection';
-import ContactSection from './contact/ContactSection';
+import Resume from './resume/Resume';
 
-export {
-  ProfileSection,
-  ExperienceSection,
-  EducationSection,
-  SkillsSection,
-  ContactSection
-};
+export { Resume };

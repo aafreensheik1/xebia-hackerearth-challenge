@@ -1,6 +1,6 @@
 import React from 'react';
 import EducationCard from './EducationCard';
-import { Card } from '../../components';
+import { Card } from '../../../components';
 
 export default function EducationSection({ id, education }) {
   return (
